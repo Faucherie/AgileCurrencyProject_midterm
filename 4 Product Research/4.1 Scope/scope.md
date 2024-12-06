@@ -9,3 +9,16 @@ This component will focus on collecting and analyzing data on currency exchange 
 ## 2. Geolocation-based Mapping
 
 This componet is the main feature that differentiates this project from others. Other platfroms provide adaquate information about the exchange rates of the banks and corporations, but they do not provide the location of the banks, offices, or ATMs. This project will provide a map of Baku, Azerbaijan, with the ability to filter the map by different criteria such as the type of business, the currency they exchange, or the exchange rate they offer. This will allow users to quickly and easily find the best exchange rate in Baku.
+
+## Questions we need to answer as a team
+
+- How are we going to host the project?
+    - Website
+    - Chrome Extension
+    - Mobile App
+- How are we going to collect the data?
+    - API
+    - Manual Data Entry
+- How are we going to visualize the data?
+    - Map
+    - Graphs
