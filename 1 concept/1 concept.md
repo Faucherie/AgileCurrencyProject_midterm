@@ -1,3 +1,5 @@
+## Concept
+
 The proposed project is an application designed to help users quickly find the best currency exchange rates and the closest bank branches in Azerbaijan, with an initial focus on the city of Baku. The app targets both locals seeking favorable exchange rates and tourists unfamiliar with the local banking landscape. Unlike online banking platforms, this application does not facilitate financial transactions but serves as a convenient tool to compare rates and locate bank branches.
 
 The app’s core functionality relies on data from Azerbaijani banks, which are required to report their exchange rates to the Central Bank. This information, available on platforms such as infobank.az, will be integrated into the app to provide accurate and real-time updates. Additionally, geolocation features will allow users to filter results by proximity, making it easier to find branches nearby offering competitive rates.
