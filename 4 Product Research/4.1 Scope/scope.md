@@ -1,24 +1,12 @@
-# Scope
+## Scope
 
-This project is intended to provide a platform for users to maximize their value when exchanging currencies in Baku, Azerbaijan. To achieve this goal, the project will involve two primary components:
+This project is designed to provide users with a platform to optimize their currency exchange experience in Baku, Azerbaijan. The platform will address two key challenges: finding the most competitive exchange rates and locating the nearest bank branches. By leveraging real-time data and geolocation technology, the application will cater to locals and tourists seeking reliable and convenient currency exchange services, with a focus on multilingual accessibility.
 
-## 1. Data Collection and Analysis
+To achieve this, the project will be delivered as a bilingual application, supporting Azerbaijani, Russian, and English. This ensures inclusivity for the local population and accessibility for international tourists. The application will be web-based, allowing seamless use across desktops and mobile browsers without requiring installations. Hosting will utilize a cloud service such as AWS or Google Cloud, ensuring scalability, availability, and security.
 
-This component will focus on collecting and analyzing data on currency exchange rates of the banks and corporations in Baku, Azerbaijan. The collected data will be used to provide users with insights and recommendations for maximizing their currency exchange value. Who offers the most competitive exchange rate in Baku?
+Exchange rate data will be collected using API integration with infobank.az, which aggregates rates reported by Azerbaijani banks to the Central Bank. This automated collection ensures real-time updates and consistency while minimizing errors. Additionally, the application will integrate with the Google Maps API to provide users with an interactive map of Baku. Users will be able to locate nearby branches or ATMs, filter results by exchange rate competitiveness, and navigate seamlessly.
 
-## 2. Geolocation-based Mapping
+The platform’s functionality will be enhanced by combining map-based visuals for branch locations with graphical tools to compare exchange rates across banks. Multilingual support will be integrated throughout the interface, ensuring a smooth and intuitive experience for both locals and tourists.
 
-This componet is the main feature that differentiates this project from others. Other platfroms provide adaquate information about the exchange rates of the banks and corporations, but they do not provide the location of the banks, offices, or ATMs. This project will provide a map of Baku, Azerbaijan, with the ability to filter the map by different criteria such as the type of business, the currency they exchange, or the exchange rate they offer. This will allow users to quickly and easily find the best exchange rate in Baku.
-
-## Questions we need to answer as a team
-
-- How are we going to host the project?
-    - Website
-    - Chrome Extension
-    - Mobile App
-- How are we going to collect the data?
-    - API
-    - Manual Data Entry
-- How are we going to visualize the data?
-    - Map
-    - Graphs
+Limitations:
+This platform is not a financial advisory service and will not facilitate online transactions or manage user funds. Instead, it focuses on delivering accurate, real-time information and bilingual mapping tools to enhance convenience and usability for a diverse audience.
