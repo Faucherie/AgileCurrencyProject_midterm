@@ -6,10 +6,9 @@
 - [2. Project Structure](#2-project-structure)
     - [2.1. **Frontend**](#21-frontend)
     - [2.2. **Backend**](#22-backend)
-    - [2.3. **Database**](#23-database)
-    - [2.4. **Third-Party APIs**](#24-third-party-apis)
-    - [2.5. **Workflow Summary**](#25-workflow-summary)
-    - [2.6. **Tech Stack**](#26-tech-stack)
+    - [2.3. **Third-Party APIs**](#23-third-party-apis)
+    - [2.4. **Tech Stack**](#24-tech-stack)
+- [3. Next Iteration](#3-next-iteration)
 
 <!-- /TOC -->
 
@@ -46,40 +45,27 @@ Here’s the software stack summarized in a Markdown table:
 - **Technology**: Node.js with Express.js framework.
 - **Functionality**:
   - Serve dynamic content (exchange rates and translations) via `GET` endpoints.
-  - Support a route to switch the current language (`/switch-language/:lang`).
   - Manage translations using a simple JavaScript file.
-- **Key Highlights**:
-  - Middleware processes user requests and dynamically renders content.
-  - A REST-like architecture simplifies further extensions.
 
-### 2.3. **Database**
-- **Technology**: None currently.
-- **Future Integration**:
-  - Could use SQLite for storing exchange rates, user preferences, or language settings.
-  - Alternatively, data could be fetched in real-time from external APIs like `infobank.az`.
-
-### 2.4. **Third-Party APIs**
+### 2.3. **Third-Party APIs**
 - **Google Maps API**:
   - Used to embed a map displaying Baku with adjustable zoom and dynamic loading.
 
-### 2.6. **Tech Stack**
+### 2.4. **Tech Stack**
 | Layer         | Technology                     | Purpose                             |
 |---------------|---------------------------------|-------------------------------------|
 | **Frontend**  | HTML, EJS                      | Display data, multilingual UI       |
 | **Backend**   | Node.js, Express.js            | Serve content, handle routes        |
-| **Database**  | None (potential SQLite)        | Not used yet; future for data storage |
+| **Database**  | None        | Not used yet; future for data storage |
 | **APIs**      | Google Maps API                | Map visualization                   |
 | **Languages** | JavaScript                     | Backend and frontend functionality  |
 
-This simple full-stack project serves as a functional prototype for a currency exchange application with real-time map integration and multilingual support. Let me know if you'd like to extend it further!
-
 ![iteration1_screenshot](agile-currency-prototype-it1.png)
 
-## Next Iteration
+## 3. Next Iteration
 
 - Language switcher with links for changing languages.
     - Dynamic, multilingual interface allowing users to switch between English, Russian, and Azerbaijani.
-    - Support a route to switch the current language (`/switch-language/:lang`).
+    - Support a route to switch the current language.
 - Integration with Google Maps API to show bank locations on the map.
-- Serve dynamic content (exchange rates and translations) via `GET` endpoints.
 
