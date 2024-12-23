@@ -17,7 +17,6 @@ This iteration is focused on creating a basic prototype of the application that 
 ## 1. Thought Process
 
 The insperation for the data stack and the backend is from the midterm project for CM2040 Databses, Networks and the Web.
-Here’s the software stack summarized in a Markdown table:
 
 | **Category**         | **Technology**           | **Description**                                              |
 |-----------------------|--------------------------|--------------------------------------------------------------|
