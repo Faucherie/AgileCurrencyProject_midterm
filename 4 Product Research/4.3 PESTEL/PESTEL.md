@@ -13,6 +13,7 @@
 
 ## 1. Political Factors
 
+.  
 
 
 ## 2. Economic Factors

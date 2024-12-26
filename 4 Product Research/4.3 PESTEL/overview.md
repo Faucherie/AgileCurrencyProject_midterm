@@ -15,6 +15,8 @@
    - Climate events (e.g., floods or heatwaves) impacting travel patterns and banking infrastructure reliability.
 
 ## Social
+1.
+2. 
 
 ## Technological
 1. **Trends in Payment Methods**
