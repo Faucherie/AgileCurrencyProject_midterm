@@ -1,5 +1,5 @@
-**8.3 Social Factors
-**
+**8.3 Social Factors**
+
 Azerbaijan's demographic landscape and technological adoption present both opportunities and challenges for the implementation of a currency exchange platform. The country boasts a high literacy rate, with approximately 99.78% of individuals aged 15 and above being able to read and write [1]. Internet penetration is also significant, standing at 88% as of 2022 [2].
 Additionally, smartphone penetration exceeds 70%, surpassing many European nations [3].
 Despite these encouraging statistics, financial literacy remains a concern. Studies indicate that the overall level of financial literacy among students is around 48%, with male students exhibiting higher financial literacy than their female counterparts [4]. This gap suggests a need for educational initiatives to enhance financial understanding across all demographics. Moreover, while urban areas enjoy widespread internet access, rural regions may experience disparities in connectivity and digital literacy. This urban-rural divide could affect the equitable adoption of digital financial services.
