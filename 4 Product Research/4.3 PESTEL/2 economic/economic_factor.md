@@ -51,6 +51,8 @@ In a plausible future scenario where oil prices significantly decline, there wou
 
 This senarios provides a tangible use case for or project to aid in an efficeint and fast way to locate a bank or exchange office to convert azn to usd.
 
+### S
+
 ## 3. References
 
 1. Azerbaijani Manat. (2024, November 12). In Wikipedia. https://en.wikipedia.org/wiki/Azerbaijani_Manat
