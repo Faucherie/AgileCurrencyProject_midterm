@@ -28,6 +28,12 @@
             - [5.3.2.7. Implications](#5327-implications)
         - [5.3.3. Social Factors](#533-social-factors)
             - [5.3.3.1. Implications](#5331-implications)
+        - [5.3.4. Technological Factors](#534-technological-factors)
+            - [5.3.4.1. Implications](#5341-implications)
+        - [5.3.5. Technological Factors](#535-technological-factors)
+            - [5.3.5.1. Implications](#5351-implications)
+        - [5.3.6. Environmental Factors](#536-environmental-factors)
+        - [5.3.7.](#537)
 - [6. References](#6-references)
 
 <!-- /TOC -->
@@ -168,13 +174,17 @@ Despite these encouraging statistics, financial literacy remains a concern. Stud
 ##### 5.3.3.1. Implications
 
 The high literacy rate and substantial internet and smartphone penetration in Azerbaijan provide a solid foundation for the adoption of digital platforms like the proposed currency exchange application.
+
 However, the relatively low financial literacy levels necessitate the inclusion of user-friendly features and educational components within the app to assist users in making informed decisions.
+
 Additionally, efforts should be made to ensure that the platform is accessible and functional for users in both urban and rural settings, taking into account potential differences in internet connectivity and digital proficiency.
 
 #### 5.3.4. Technological Factors
 
 Azerbaijan's commitment to digital transformation is evident in initiatives like the Digital Trade Hub, which promotes electronic payments and digital commerce [15]. This shift towards a cashless society aligns with the app's goals of simplifying and streamlining financial processes.
+
 The Azerbaijan's mobile internet infrastructure has grown rapidly, with 4G coverage now available to 94% of the population, and 5G rollout plans in progress [16]. The increasing adoption of 5G technology is expected to enhance mobile internet speeds and reduce latency, offering better user experiences for mobile applications.
+
 The Azerbaijani government has invested significantly in IT education, launching coding programs and tech hubs to nurture local talent [17]. This is fostering an ecosystem that could support the development and maintenance of tech solutions like the currency exchange app.
 Additionally, cybersecurity threats, such as phishing attacks and data breaches, are increasing globally and could pose risks to user trust and data protection [18]. Geolocation data is particularly sensitive. Mismanagement of such information can expose users to privacy risks, such as location tracking or profiling by malicious actors. Implementing anonymized geolocation queries (e.g., by rounding location coordinates to a certain range) can reduce the precision of stored data while preserving the app's functionality [19]. 
 
@@ -183,7 +193,36 @@ Additionally, cybersecurity threats, such as phishing attacks and data breaches,
 The widespread mobile internet and smartphone penetration in Azerbaijan provide a strong foundation for the adoption of the currency exchange application. The ongoing digital transformation and government support for tech initiatives create an enabling environment for the app's development and integration. However, rural connectivity challenges and cybersecurity risks must be addressed to ensure equitable access and user trust. Implementing strong geolocation data protection measures could mitigate these concerns.
 References
 
+#### 5.3.6. Environmental Factors
 
+Environmental factors play a lesser but still relevant role in the development of a digital platform like the Baku Currency Exchange Rate Finder. While the direct environmental impact of the application is minimal, there are significant considerations regarding transportation and tourism trends.
+
+The app's geolocation feature, which guides users to nearby exchange offices, could encourage efficient travel routes, minimizing unnecessary trips and thereby reducing carbon emissions. This aligns with broader goals of sustainable urban mobility, as highlighted in studies on geolocation and its role in reducing carbon footprints [23]. However, this benefit is contingent on the app's accuracy and real-time updates.
+
+A growing focus on sustainability in tourism is evident globally, including in Azerbaijan, where efforts are being made to adapt tourism practices to environmental concerns [24]. According to the World Tourism Organization (UNWTO), eco-conscious tourism has seen a sharp rise in interest, with travelers actively seeking sustainable services and solutions [25]. Tourists are increasingly prioritizing eco-conscious services and destinations, and the app's digital-first, paperless approach contributes to reducing environmental waste [26]. Positioning the app as an environmentally responsible solution could enhance its appeal to eco-conscious users.
+
+Additionally, climate risks such as floods, heatwaves, or other extreme weather events may affect travel patterns and the reliability of banking infrastructure. These events could disrupt user access to physical exchange offices or banking services [27], underscoring the importance of providing real-time updates to adapt to changing conditions.
+
+#### 5.3.7. Legal Factors
+
+Developing a currency exchange application in Azerbaijan requires adherence to several legal frameworks and considerations:
+
+Azerbaijan’s Law on Legal Protection of Compilations of Data governs the use of publicly available data, including web scraping. Unauthorized scraping of data from bank websites or currency exchange platforms could potentially infringe on intellectual property rights. If proprietary or sensitive data is collected without explicit permission, it may lead to legal challenges. Therefore, the project should prioritize obtaining explicit permissions or licenses from banks and data providers for data usage [28].
+
+Analysis of one of the Bank’s policies reveals that although there is no explicit prohibition of the data scrapping, however generally they prohibit use of the information from their websites [29]. Despite that majority of other banks located in Baku do not expose Terms of Service or Data Privacy policies in English, data scrapping (such as currency rates, branch addresses etc.) legality then is uncertain, and still poses legal risks.
+
+Additionally, the application must ensure it does not inadvertently facilitate unregulated financial transactions, which may contravene laws governing financial services. While the app itself does not handle transactions, its role in connecting users to banks requires clarity in disclaimers and operational transparency.
+Implications
+
+#### 5.3.7.1. Implications
+
+To mitigate risks:
+
+Obtain explicit permissions for scraping or accessing bank data to avoid intellectual property violations.
+
+Exclude any suggestion of provision of financial services by our app. If necessary, include disclaimers clearly stating the app’s role as an informational tool, not a financial service provider, to limit liability.
+
+Prioritize user consent and data protection measures to comply with personal data laws and safeguard user trust.
 
 ## 6. References
 
@@ -205,3 +244,14 @@ References
 16. "Azercell 5G" Azercell, https://www.azercell.com/en/personal/plans-and-services/5g.html. Accessed 28 Dec. 2024.
 17. "Cybercrime To Cost The World $10.5 Trillion Annually By 2025." Cybersecurity Ventures, cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/. Accessed 28 Dec. 2024.
 18. "Protecting Privacy in Location-Based Services." IEEE, https://ieeexplore.ieee.org/document/9133462. Accessed 28 Dec. 2024.
+19. "Digital Trade Hub of Azerbaijan." E-Government Azerbaijan, www.e-gov.az/en. Accessed 28 Dec. 2024.
+20. "Azercell 5G" Azercell, https://www.azercell.com/en/personal/plans-and-services/5g.html. Accessed 28 Dec. 2024.
+21. "Cybercrime To Cost The World $10.5 Trillion Annually By 2025." Cybersecurity Ventures, cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/. Accessed 28 Dec. 2024.
+22. "Protecting Privacy in Location-Based Services." IEEE, https://ieeexplore.ieee.org/document/9133462. Accessed 28 Dec. 2024.
+23. "Carbon Footprint and Travel Efficiency: The Role of Geolocation Apps in Sustainable Urban Mobility." Sustainable Development Journal, 2023. Available at: sdjournal.org/articles/geolocation-carbon-footprint. Accessed 28 Dec. 2024.
+24. "Tourism and Climate Change: Impacts and Adaptation in Azerbaijan." Azerbaijan Tourism Board, tourismboard.az/climate. Accessed 28 Dec. 2024.
+25. "Eco-Conscious Tourism Trends 2024." World Tourism Organization (UNWTO), www.unwto.org/eco-tourism-trends. Accessed 28 Dec. 2024.
+26. "Paperless Solutions in Modern Applications: Reducing Environmental Impact." Green Tech Insights, www.greentechinsights.com/paperless-digital-solutions. Accessed 28 Dec. 2024.
+27. "Impact of Extreme Weather on Banking and Financial Services." Financial Resilience Institute, www.financialresilience.org/research/weather-impact-on-banking. Accessed 28 Dec. 2024.
+28. "Law on Legal Protection of Compilations of Data." Azerbaijan Patent and Trademark Office, www.copat.gov.az/docs/Qanunvericilik/Qanunlar/English/Law-Database.pdf. Accessed 28 Dec. 2024.
+29. “Terms of use” PASHA Bank, inc., https://www.pashabank.az/static,25/lang,en/. Accessed 28 Dec. 2024.
