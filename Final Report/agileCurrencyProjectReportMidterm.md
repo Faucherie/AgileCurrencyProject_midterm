@@ -20,8 +20,9 @@
     - [6.1. Source of Data](#61-source-of-data)
     - [6.2. Technical Prototype](#62-technical-prototype)
     - [6.3. Wire Frames](#63-wire-frames)
-- [7. Planning](#7-planning)
-- [8. References](#8-references)
+- [7. Questionnaire](#7-questionnaire)
+- [8. Planning](#8-planning)
+- [9. References](#9-references)
 
 <!-- /TOC -->
 
