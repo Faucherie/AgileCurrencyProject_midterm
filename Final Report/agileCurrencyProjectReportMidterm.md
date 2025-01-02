@@ -3,38 +3,25 @@
 **A Currency Convertion Visualization Tool for Baku, Azerbaijan**
 
 ## 1. Table of Contents
-<!-- TOC tocDepth:2..5 chapterDepth:2..7 -->
+<!-- TOC tocDepth:2..3 chapterDepth:2..5 -->
 
 - [1. Table of Contents](#1-table-of-contents)
 - [2. Concept](#2-concept)
 - [3. Aims and Objectives](#3-aims-and-objectives)
+    - [3.1. Aims](#31-aims)
+    - [3.2. Objectives](#32-objectives)
 - [4. Stakeholders](#4-stakeholders)
 - [5. Product Research](#5-product-research)
     - [5.1. Reason for the project](#51-reason-for-the-project)
     - [5.2. SWOT Analysis](#52-swot-analysis)
-        - [5.2.1. Strengths](#521-strengths)
-        - [5.2.2. Weaknesses](#522-weaknesses)
-        - [5.2.3. Opportunities](#523-opportunities)
-        - [5.2.4. Threats](#524-threats)
     - [5.3. PESTEL Analysis](#53-pestel-analysis)
-        - [5.3.1. Political Factors](#531-political-factors)
-        - [5.3.2. Economic Factors](#532-economic-factors)
-            - [5.3.2.1. Introduction to Manat](#5321-introduction-to-manat)
-            - [5.3.2.2. Economic Theory on Defending Currency Peg](#5322-economic-theory-on-defending-currency-peg)
-            - [5.3.2.3. Azeri Light Crude Oil Price Impact on Manat](#5323-azeri-light-crude-oil-price-impact-on-manat)
-            - [5.3.2.4. First Crisis: February 2015](#5324-first-crisis-february-2015)
-            - [5.3.2.5. Second Crisis: December 2015](#5325-second-crisis-december-2015)
-            - [5.3.2.6. Return to De Facto Pegging](#5326-return-to-de-facto-pegging)
-            - [5.3.2.7. Implications](#5327-implications)
-        - [5.3.3. Social Factors](#533-social-factors)
-            - [5.3.3.1. Implications](#5331-implications)
-        - [5.3.4. Technological Factors](#534-technological-factors)
-            - [5.3.4.1. Implications](#5341-implications)
-        - [5.3.5. Technological Factors](#535-technological-factors)
-            - [5.3.5.1. Implications](#5351-implications)
-        - [5.3.6. Environmental Factors](#536-environmental-factors)
-        - [5.3.7.](#537)
-- [6. References](#6-references)
+    - [5.4. Market Research](#54-market-research)
+- [6. Technical and Functional Requirements/Specifications](#6-technical-and-functional-requirementsspecifications)
+    - [6.1. Source of Data](#61-source-of-data)
+    - [6.2. Technical Prototype](#62-technical-prototype)
+    - [6.3. Wire Frames](#63-wire-frames)
+- [7. Planning](#7-planning)
+- [8. References](#8-references)
 
 <!-- /TOC -->
 
@@ -48,10 +35,10 @@ This tool aims to address a common challenge faced by users in navigating varyin
 
 ## 3. Aims and Objectives
 
-**Aim:**  
+### 3.1. Aims
 Our primary aim is to develop a web-based application tha allows both locals and tourists, to easily identify the best currency exchange rates and locate nearby bank branches in Azerbaijan. By providing real-time, accessible, and accurate information, the application seeks to enhance financial decision-making and convenience in the Baku market.
 
-**Objectives:**  
+### 3.2. Objectives
 1. Conduct research to validate the necessity and feasibility of the proposed application, using data from `infobank.az` and similar platforms with redundancy plans in case of data unavailability.   
 2. Perform market analysis to identify potential competitors and evaluate their strengths and limitations.  
 3. Develop an initial prototype that demonstrates key functionalities, such as rate comparison and branch geolocation, with a clear explanation of design decisions.  
@@ -140,7 +127,7 @@ In feburary 2015, the Central Bank of Azerbaijan abandoned the currency peg to t
 
 The second crisis hit in December when the central bank ceased protecting the Manat's value, resulting in a dramatic 32% drop in a single day. This led to widespread panic, with people rushing to exchange their Manats for dollars, shops closing their doors, and banks imposing strict exchange limits while exchange offices ran out of dollars entirely.
 
-###### 5.3.2.5.1. Floating Exchange Rate
+###### Floating Exchange Rate
 
 In the context of currency exchange, a "corridor" refers to a predetermined range within which a central bank aims to keep the exchange rate of a currency, essentially setting a ceiling and floor for how much the currency can fluctuate against other currencies; so, "dropping the exchange rate corridor" means the central bank is no longer actively intervening to keep the currency value within that specific range, allowing it to freely fluctuate based on market forces, which is called a "floating" exchange rate. [6]
 
@@ -193,7 +180,7 @@ Additionally, cybersecurity threats, such as phishing attacks and data breaches,
 The widespread mobile internet and smartphone penetration in Azerbaijan provide a strong foundation for the adoption of the currency exchange application. The ongoing digital transformation and government support for tech initiatives create an enabling environment for the app's development and integration. However, rural connectivity challenges and cybersecurity risks must be addressed to ensure equitable access and user trust. Implementing strong geolocation data protection measures could mitigate these concerns.
 References
 
-#### 5.3.6. Environmental Factors
+#### 5.3.5. Environmental Factors
 
 Environmental factors play a lesser but still relevant role in the development of a digital platform like the Baku Currency Exchange Rate Finder. While the direct environmental impact of the application is minimal, there are significant considerations regarding transportation and tourism trends.
 
@@ -203,7 +190,7 @@ A growing focus on sustainability in tourism is evident globally, including in A
 
 Additionally, climate risks such as floods, heatwaves, or other extreme weather events may affect travel patterns and the reliability of banking infrastructure. These events could disrupt user access to physical exchange offices or banking services [27], underscoring the importance of providing real-time updates to adapt to changing conditions.
 
-#### 5.3.7. Legal Factors
+#### 5.3.6. Legal Factors
 
 Developing a currency exchange application in Azerbaijan requires adherence to several legal frameworks and considerations:
 
@@ -214,7 +201,7 @@ Analysis of one of the Bank’s policies reveals that although there is no expli
 Additionally, the application must ensure it does not inadvertently facilitate unregulated financial transactions, which may contravene laws governing financial services. While the app itself does not handle transactions, its role in connecting users to banks requires clarity in disclaimers and operational transparency.
 Implications
 
-#### 5.3.7.1. Implications
+##### 5.3.6.1. Implications
 
 To mitigate risks:
 
@@ -224,7 +211,277 @@ Exclude any suggestion of provision of financial services by our app. If necessa
 
 Prioritize user consent and data protection measures to comply with personal data laws and safeguard user trust.
 
-## 6. References
+### 5.4. Market Research
+
+Developing the Baku Currency Exchange Rate Finder app requires an understanding of the current market landscape, including available tools, their limitations, and user needs. The following analysis reviews the findings from user questionnaires, evaluates existing platforms in Baku, and compares international equivalents for additional insights.
+
+#### 5.4.1. Current Solutions in Baku
+
+##### 5.4.1.1. Day.az
+
+https://azn.az
+
+A popular news website that aggregates currency exchange rates from various banks in Azerbaijan
+
+![Day.az](./img/Day.az.png)
+
+Strengths:
+Provides basic exchange rate information.
+Includes working hours of banks and addresses linked to Google Maps.
+Weaknesses:
+Lacks geolocation functionality, forcing users to search manually.
+No real-time updates for branch availability or transaction limits.
+Limited multilingual support (no tourist-friendly interface).
+
+##### 5.4.1.2. Azn.az
+
+Another local aggregator that lists exchange rates.
+
+![azn.az](./img/azn.az.png)
+
+Unlike Day.az, Azn.az is azn.az lacks any translation to English. The user is left to using their browsers translation feature to offer a aznerbiani to their language. We found Google's Chrome Translate to be the most accurate and reliable translation tool, other browsers like Windows Edge are not able to translate the page.
+
+This page like Day.az lacks any location information, and only provides the exchange rates.
+
+
+##### 5.4.1.3. Implications
+
+Both existing websites have significant room for improvement in several key areas. Neither platform currently implements geolocation functionality to help users locate nearby exchange offices, which would be a valuable feature for both locals and tourists. Additionally, they lack detailed information about transaction limits that could help users better plan their exchanges. This is particularly problematic for tourists who may avoid credit cards due to security concerns and need to know which exchange offices are open and accessible.
+
+Currently, most people address these limitations through time-consuming manual research, checking multiple websites and physically visiting different exchange offices. This process is highly inefficient, especially when users arrive at offices only to find they are closed or don't offer competitive rates.
+
+These gaps in the current market present clear opportunities for improvement in our application. By aggregating comprehensive data from all banks and exchange offices, implementing geolocation features to help users find the nearest available exchange points, and including practical information such as transaction limits and safety tips, we can create a more useful tool. These enhancements would be particularly valuable for tourists navigating an unfamiliar financial landscape while providing significant benefits to local users as well.
+
+
+## 6. Technical and Functional Requirements/Specifications
+
+### 6.1. Source of Data
+
+
+#### 6.1.1. Public APIs or Web Services
+Many banks provide publicly accessible APIs or web services that share real-time data, such as exchange rates. These APIs allow external platforms to retrieve up-to-date currency information in a structured format (e.g., JSON or XML).
+- Cant find any examples
+- Finding an API is probably the best case scenario
+
+#### 6.1.2. Web Scraping
+If APIs are not available, the site might use web scraping techniques to extract data directly from the exchange rate pages of bank websites. This involves automated scripts that fetch and parse HTML content to extract relevant data fields.
+ 
+
+#### 6.1.3. FTP Servers or Feeds
+
+Some banks may offer currency rate data via FTP servers or syndicated feeds (like RSS or XML). These are periodically updated by the banks.
+- Im not sure how this would work, is it a lower tech api?
+- This would work if we can find a bank that offers this service. 
+   
+
+#### 6.1.4. Data Aggregators (Portals)
+Instead of direct integration with each bank, azn.day.az might use third-party aggregators that collect and consolidate exchange rate data from multiple banks, providing it through a single API or feed.
+ 
+##### 6.1.4.1. infobank.az
+![infobank.az logo](./img/infobank.az_logo.png)
+
+While attempting to access the infobank.az website directly, we found that it does not load properly. However, we discovered that many banks' websites contain the infobank.az logo at the bottom of their pages, which links to the infobank.az website. Through our research and the company's LinkedIn profile, we identified several major banks that utilize infobank.az's services, including Access Bank, Afb bank, Azerpost, International Bank of Azerbaijan, ASB Azerbaijan Industry Bank, Bank of the Republic, Premium Bank, VTB Bank (Azerbaijan), Kapital Bank, and Rabita Bank. Notable exceptions include Pasha Bank, though it has become increasingly difficult to definitively determine which banks do not use the service, as some may utilize it without prominently displaying the logo or partnership.
+
+##### 6.1.4.2. MALİYYƏ SAVADLILIĞI Portalı.
+![MALİYYƏ SAVADLILIĞI Portalı](./img/MALİYYƏ_SAVADLILIĞI_Portalı_logo.png)
+
+[link](https://bizimpullar.az/)
+
+The MALİYYƏ SAVADLILIĞI Portalı was initially observed on the Turanbank website, though it may have been utilized by other banks prior to this discovery. Based on observed patterns, it appears that banks using infobank.az services likely also integrate with this portal. However, attempts to access the portal's links have been unsuccessful, making it difficult to fully understand its functionality and role in the banking ecosystem.
+
+##### 6.1.4.3. Mərkəzi Bankı
+![cbar.az logo](./img/cbar.az_logo.png)
+
+The Central Bank of Azerbaijan (CBAR) serves as the country's central banking institution. While initially appearing to be just a standard website link, further investigation suggests it may function as a data portal as well. Additional research would be needed to fully understand its capabilities and potential integration options.
+##### 6.1.4.4. Adif
+
+![adif.gov.az logo](./img/Adif_logo.png)
+
+[link](https://adif.gov.az/)
+
+##### 6.1.4.5. Elektran Hokumat portalı (egov)
+![egov logo](./img/egov_logo.png)
+
+While both Adif and egov logos appear on many bank websites, they appear to be separate entities. The egov portal, like infobank, is widely displayed across banking sites and appears to be a government portal for insurance or benefits. However, due to its focus on government services rather than financial data, it likely falls outside the scope of this project's requirements.
+
+#### 6.1.5. Consolidated Bank List
+
+From [azn.day.az](https://azn.day.az/en/) and [azn.az](https://azn.az/)
+
+| index | Bank | Link | Scrape? | Orignal Source | Portal: infobank.az | Portal: MALİYYƏ SAVADLILIĞI Portalı. | Portal: cbar.az | Portal: Adif |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Access Bank | [link](https://www.accessbank.az/az/) | Easy to scrape, scroll down from home page | both | yes | yes | yes | maybe it says egov |
+| 2 | AFB Bank | [link](https://afb.az/) | Easy to scrape, scroll down from home page | both | yes | yes | yes | maybe it says egov |
+| 3 | Azerpost | [link](https://www.azerpost.az/) | Easy to scrape, scroll down from home page | azn.day.az | yes |
+| 4 | International Bank of Azerbaijan | [link](https://abb-bank.az/) | Easy to scrape, scroll down from home page *no https  | both | yes | yes | not sure | yes
+| 5 | ASB Azerbaijan Industry Bank | [link](https://asb.az/) | Might need javascript to load as exchanged rates flash in the top right corner | both | yes |
+| 6 | Bank of the Republic |  [link](https://www.bankrespublika.az/)| Easy to scrape, scroll down from home page | azn.day.az (listed as Bank Respublika) | yes | yes | no | egov |
+| 7 | Premium Bank | [link](https://www.premiumbank.az/) | Might need javascript to load as exchanged rates flash in the top right corner | both | yes | yes | not sure | not sure |
+| 8 | VTB Bank (Azerbaijan) | [link](https://vtb.az/en/personal/) | Easy to scrape, scroll down from home page | azn.az | yes | not sure | not sure | yes and egov |
+| 9 | Kapital Bank | [link](https://www.kapitalbank.az/en) | Easy to scrape, scroll down from home page | azn.az | yes | yes | not sure | yes and egov |
+| 10 | Pasha Bank | [link](https://www.pashabank.az/lang,en/) | Easy to scrape, scroll down from home page | azn.az | not sure | not sure | not sure | yes |
+| 11 | Rabita Bank | [link](https://www.rabitabank.com/) | Easy to scrape, scroll down from home pag  | azn.az (listed as Rabitəbank on azn.day.az) | yes | yes | yes | yes |
+| 12 | TuranBank | [link](https://www.turanbank.az/en/pages/1) | Easy to scrape, scroll down from home page | both | yes | yes | yes | yes |
+| 13 | Unibank | [link](https://unibank.az/en) | Easy to scrape, scroll down from home page  | both | yes | yes | yes | yes and egov |
+| 14 | Yapi Kredi Bank Azerbaijan | [link](https://www.yapikredi.com.az/) | Easy from [dedicated page](https://www.yapikredi.com.az/en/mezenne) | both | yes | yea | not sure | not sure |
+| 15 | Bank Melli Iran | [link](https://en.bmibaku.az/) | Easy to scrape, scroll down from home page  | azn.day.az | yes | not sure | not sure | yes and egov |
+| 16 | Yelo Bank | [link](https://www.yelo.az/) | checks if human or bot. Easy from [dedicated page](https://www.yelo.az/az/exchange-rates/) | azn.day.az | yes | not sure does include karabakh revival fundation | not sure does include life foundation | yes and egov |
+| 17 | Azer Turk Bank | [link](https://atb.az/) | Easy to scrape, scroll down from home page | azn.day.az | Easy to scrape, scroll down from home page | yes | not sure | yes | yes |
+| 18 | Express Bank | [link](https://expressbank.az/) | need to click currency rate in the home page no dedicated page | azn.day.az | yes | yes | not sure | yes and egov|
+| 19 | Bank BTB | [link](https://btb.az/) | might need javascript to load | azn.day.az | yes | yes | not sure | yes and egov|
+| 20 | Ziraat Bank | [link](https://ziraatbank.az/az) | Easy to scrape, scroll down from home page | azn.day.az | yes | yes | not sure | not sure|
+
+### 6.2. Technical Prototype
+
+The first iteration focused on developing a basic prototype application that provides users with static generated exchange rate data, a bilingual interface, and a basic map demonstrating Google API functionality.
+
+The development team drew inspiration for the data stack and backend architecture from the CM2040 Databases, Networks and the Web midterm project. They structured the technical components as follows:
+
+| **Category**         | **Technology**           | **Description**                                              |
+|-----------------------|--------------------------|--------------------------------------------------------------|
+| **Backend**          | Node.js                 | Runtime environment for building server-side applications.   |
+|                       | Express.js              | Web application framework for routing and HTTP handling.     |
+|                       | SQLite                  | Lightweight, file-based SQL database for data storage.       |
+| **Frontend**         | EJS                     | Server-side rendering of HTML templates for dynamic content. |
+|                       | CSS                     | Stylesheets for visual design using `main.css`.              |
+| **Development Tools**| Body-Parser             | Middleware for parsing incoming request bodies (e.g., forms).|
+|                       | NPM Scripts            | Custom scripts for managing the app and database operations. |
+| **Directory Structure**| Routes                | Separate modules for author, reader, and main routes.        |
+|                       | Views                   | EJS templates for different pages (e.g., homepage, settings).|
+
+The project structure was organized into several key components. For the frontend, the team implemented HTML with EJS (Embedded JavaScript Templates) to display exchange rates in a table format and integrate a Google Maps component centered on Baku. The backend was built using Node.js with the Express.js framework to serve dynamic content through GET endpoints and manage translations via JavaScript files. The Google Maps API was incorporated as a third-party service to provide map visualization capabilities.
+
+The complete technology stack was organized as follows:
+
+| Layer         | Technology                     | Purpose                             |
+|---------------|---------------------------------|-------------------------------------|
+| **Frontend**  | HTML, EJS                      | Display data, multilingual UI       |
+| **Backend**   | Node.js, Express.js            | Serve content, handle routes        |
+| **Database**  | None        | Not used yet; future for data storage |
+| **APIs**      | Google Maps API                | Map visualization                   |
+| **Languages** | JavaScript                     | Backend and frontend functionality  |
+
+![iteration1_screenshot](./img/agile-currency-prototype-it1.png)
+
+For the next iteration, the development team plans to implement a language switcher with links for changing languages, enabling a dynamic multilingual interface that supports English, Russian, and Azerbaijani. They also aim to enhance the Google Maps integration to display bank locations on the map.
+
+### 6.3. Wire Frames
+
+#### 6.3.1. Iteration 1
+
+The first iteration's wireframe for the home page focuses on providing a clear overview of exchange rates across multiple banks in Baku. The design follows a tabular layout similar to existing platforms like azn.day.az and azn.az, but with improvements for clarity and usability.
+
+The main interface displays a comprehensive table showing exchange rates for multiple banks. For each bank, the table includes:
+
+- Bank name for clear identification
+- Buy and sell rates for cash transactions
+- Buy and sell rates for non-cash (card/electronic) transactions
+
+This layout allows users to quickly compare rates across different banks at a glance. The table format was chosen because:
+
+1. It provides a familiar interface that users already understand from existing platforms
+2. It enables easy scanning and comparison of rates across multiple banks
+3. It efficiently uses screen space to display a large amount of numerical data
+
+The wireframe demonstrates how the application will present essential information without overwhelming users. Each row represents a different bank, with columns clearly labeled for different transaction types. This organization helps users quickly find the most favorable rates for their specific needs, whether they're looking for cash or non-cash transactions.
+
+The design prioritizes readability and ease of comparison, addressing a key user need identified in our market research - the ability to efficiently compare rates across multiple banks without needing to visit multiple websites or locations.
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│                          Bank Exchange Rates                       │
+│ ┌────────────────────────────────────────────────────────────────┐ │
+│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
+│ │ │Bank A │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
+│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
+│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
+│ │ │Bank B │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
+│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
+│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
+│ │ │Bank C │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
+│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
+│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
+│ │ │Bank D │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
+│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
+│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
+│ │ │Bank E │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
+│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
+│ │                                                                │ │
+│ └────────────────────────────────────────────────────────────────┘ │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+A second wireframe shows the individual bank view, which will be accessible when users click on a specific bank. This detailed view includes:
+
+- Bank name and branding
+- Detailed bank information
+- Current exchange rates
+- Google Maps integration showing branch locations
+
+```
+┌───────────────────────────────────────────────┐
+│                   ┌────────┐                  │
+│                   │ Bank A │                  │
+│                   └────────┘                  │
+│  ┌────────────────────────────────────────┐   │
+│  │               Bank Info                │   │
+│  └────────────────────────────────────────┘   │
+│  ┌────────────────────────────────────────┐   │
+│  │             Exchange Rates             │   │
+│  │                                        │   │
+│  └────────────────────────────────────────┘   │
+│                                               │
+│  ┌────────────────────────────────────────┐   │
+│  │                                        │   │
+│  │                                        │   │
+│  │                                        │   │
+│  │      Google maps API integration       │   │
+│  │                                        │   │
+│  │                                        │   │
+│  │                                        │   │
+│  │                                        │   │
+│  └────────────────────────────────────────┘   │
+└───────────────────────────────────────────────┘
+```
+
+The second iteration's wireframe for the individual bank view focuses on providing a detailed view of a specific bank's exchange rates and location. The design includes:
+
+- Bank name and branding
+- Detailed bank information
+- Current exchange rates
+- Google Maps integration showing branch locations
+
+## 7. Questionnaire
+
+## 8. Planning
+
+Effective project planning is crucial for ensuring that all team members are aligned and that the project progresses smoothly. For our project, we utilized slack for communication and GitHub for project management.
+
+In the begging our team members ranged from the Central Europe, Western Asia, Eastern Asia, and North America. Thus we deemed the difficulty in finding a common time for a weekly Zoom or Discord meeting would be insurmountable. We thus opted for the more flexible approach, using Slack for communication. 
+
+This provided convience but at the exspence of a more structured approach. In the end this proved to be a problem as we had trouble keeping track of our tasks and progress.
+
+We also lost afew team memebers durring the project. One of the members never enaged thoughout the project, and another was actualy in the wrong team.
+
+We established a dedicated channel, team-35-tutor-group-8_cm2020, to centralize all project-related discussions. This channel was created on November 11th, 2024, and served as the primary hub for communication among team members.
+
+We created a GitHub project to track and assign issues. This allowed us to manage tasks effectively, ensuring that each team member was aware of their responsibilities and the project's status.
+
+Using the GitHub project we created a timeline for the project. This timeline was used to allocate time effectively across different project phases. While we occasionally exceeded our estimated time frames, the flexibility in our planning allowed us to adjust as needed based on the depth of research required.
+
+Our GitHub repository served as the central hub for all project-related documents and code. The repository was organized into several key sections:
+
+- **Concept and Aims**: Documented two weeks ago, outlining the project's objectives and goals
+- **Stakeholder Analysis**: Completed two weeks ago, including a comprehensive SWOT analysis
+- **Product Research**: Compiled up to social factors, with updates as recent as five hours ago
+- **Technical and Functional Specifications**: Wireframes for both the main page and bank info page were completed last week
+- **Final Report**: The PESTEL analysis was fully integrated into the final report five hours ago
+
+
+
+## 9. References
 
 1. The Trade Finance Guide, U.S. Department of Commerce, www.trade.gov/sites/default/files/2022-07/Trade_Finance_Guide_2022.pdf. Accessed 5 Dec. 2024. 
 2. “Azerbaijan: Freedom on the Net 2024 Country Report.” Freedom House, freedomhouse.org/country/azerbaijan/freedom-net/2024. Accessed 23 Dec. 2024.
