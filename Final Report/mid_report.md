@@ -388,31 +388,7 @@ The wireframe demonstrates how the application will present essential informatio
 
 The design prioritizes readability and ease of comparison, addressing a key user need identified in our market research - the ability to efficiently compare rates across multiple banks without needing to visit multiple websites or locations.
 
-```
-┌────────────────────────────────────────────────────────────────────┐
-│                                                                    │
-│                          Bank Exchange Rates                       │
-│ ┌────────────────────────────────────────────────────────────────┐ │
-│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
-│ │ │Bank A │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
-│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
-│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
-│ │ │Bank B │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
-│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
-│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
-│ │ │Bank C │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
-│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
-│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
-│ │ │Bank D │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
-│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
-│ │ ┌───────┬──────────┬───────────┬─────────────┬───────────────┐ │ │
-│ │ │Bank E │Buy (Cash)│Sell (Cash)│Buy (no-Cash)│Sell (no-Cash) │ │ │
-│ │ └───────┴──────────┴───────────┴─────────────┴───────────────┘ │ │
-│ │                                                                │ │
-│ └────────────────────────────────────────────────────────────────┘ │
-│                                                                    │
-└────────────────────────────────────────────────────────────────────┘
-```
+![Wirefram bankA](./img/wireframm_bankA.png)
 
 A second wireframe shows the individual bank view, which will be accessible when users click on a specific bank. This detailed view includes:
 
@@ -421,31 +397,7 @@ A second wireframe shows the individual bank view, which will be accessible when
 - Current exchange rates
 - Google Maps integration showing branch locations
 
-```
-┌───────────────────────────────────────────────┐
-│                   ┌────────┐                  │
-│                   │ Bank A │                  │
-│                   └────────┘                  │
-│  ┌────────────────────────────────────────┐   │
-│  │               Bank Info                │   │
-│  └────────────────────────────────────────┘   │
-│  ┌────────────────────────────────────────┐   │
-│  │             Exchange Rates             │   │
-│  │                                        │   │
-│  └────────────────────────────────────────┘   │
-│                                               │
-│  ┌────────────────────────────────────────┐   │
-│  │                                        │   │
-│  │                                        │   │
-│  │                                        │   │
-│  │      Google maps API integration       │   │
-│  │                                        │   │
-│  │                                        │   │
-│  │                                        │   │
-│  │                                        │   │
-│  └────────────────────────────────────────┘   │
-└───────────────────────────────────────────────┘
-```
+![Wirefram Home](./img/wirefram_home.png)
 
 The second iteration's wireframe for the individual bank view focuses on providing a detailed view of a specific bank's exchange rates and location. The design includes:
 
@@ -455,6 +407,11 @@ The second iteration's wireframe for the individual bank view focuses on providi
 - Google Maps integration showing branch locations
 
 ## 7. Questionnaire
+
+![questionnaire](./img/Currency%20Exchange%20Navigator%20Stakeholder%20Questionnaire.pdf)
+
+
+
 
 ## 8. Planning
 
