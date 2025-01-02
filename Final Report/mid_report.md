@@ -369,7 +369,7 @@ For the next iteration, the development team plans to implement a language switc
 ### 6.3. Wire Frames
 
 #### 6.3.1. Iteration 1
-
+**Home Page Wireframe***
 The first iteration's wireframe for the home page focuses on providing a clear overview of exchange rates across multiple banks in Baku. The design follows a tabular layout similar to existing platforms like azn.day.az and azn.az, but with improvements for clarity and usability.
 
 The main interface displays a comprehensive table showing exchange rates for multiple banks. For each bank, the table includes:
@@ -388,8 +388,24 @@ The wireframe demonstrates how the application will present essential informatio
 
 The design prioritizes readability and ease of comparison, addressing a key user need identified in our market research - the ability to efficiently compare rates across multiple banks without needing to visit multiple websites or locations.
 
-![Wirefram bankA](./img/wireframm_bankA.png)
+```
++--------------------------------------------------+
+|                         [Home] [About] [Contact] |
++--------------------------------------------------+
+| Bank Exchange Rates Table                        |
+| +----------------------------------------------+ |
+| | Bank Name | Buy Rate | Sell Rate | Type      | |
+| +----------------------------------------------+ |
+| | Bank A    | 1.70     | 1.72      | Cash      | |
+| | Bank B    | 1.68     | 1.71      | Non-Cash  | |
+| +----------------------------------------------+ |
+|                                                  |
++--------------------------------------------------+
+| Footer: Contact Info | Social Media Links        |
++--------------------------------------------------+
+```
 
+**Bank Details Page Wireframe**
 A second wireframe shows the individual bank view, which will be accessible when users click on a specific bank. This detailed view includes:
 
 - Bank name and branding
@@ -397,14 +413,112 @@ A second wireframe shows the individual bank view, which will be accessible when
 - Current exchange rates
 - Google Maps integration showing branch locations
 
-![Wirefram Home](./img/wirefram_home.png)
+```
++--------------------------------------------------------+
+| Currency Exchange Navigator  [Home] [About] [Contact]  |
++--------------------------------------------------------+
+| Bank A                                                 |
+| +----------------------------------------------+       |
+| | Bank Name | Buy Rate | Sell Rate | Type      |       |
+| +----------------------------------------------+       |
+| | Bank A    | 1.70     | 1.72      | Cash      |       |
+| +----------------------------------------------+       |
+|                                                        |
+| +----------------------------------------------+       |
+| | Address: 123 Main St, Baku, Azerbaijan       |       |
+| | Phone: +994 12 3456789                       |       |
+| | Email: info@banka.az                         |       |
+| | Website: www.banka.az                        |       |
+| +----------------------------------------------+       |
+|                                                        |
+| +----------------------------------------------+       |
+| | Hours of operation: 9:00 AM - 5:00 PM        |       |
+| +----------------------------------------------+       |
+|                                                        |
+| +----------------------------------------------+       |
+| | Map showing nearby branches                  |       |
+| +----------------------------------------------+       |
+|                                                        |
++--------------------------------------------------------+
+| Footer: Contact Info | Social Media Links              |
++--------------------------------------------------------+
+```
 
 The second iteration's wireframe for the individual bank view focuses on providing a detailed view of a specific bank's exchange rates and location. The design includes:
 
-- Bank name and branding
-- Detailed bank information
-- Current exchange rates
-- Google Maps integration showing branch locations
+#### 6.3.2. Iteration 2
+
+In the first iteration we focused on the home page and the bank details page. In the second iteration we focused on the language switcher and the map.
+
+```
++------------------------------------------------------+
+|           [Home] [About] [Contact]    [Language: EN] |
++------------------------------------------------------+
+| Bank Exchange Rates Table                            |
+| +----------------------------------------------+     |
+| | Bank Name | Buy Rate | Sell Rate | Type      |     |
+| +----------------------------------------------+     |
+| | Bank A    | 1.70     | 1.72      | Cash      |     |
+| | Bank B    | 1.68     | 1.71      | Non-Cash  |     |
+| +----------------------------------------------+     |
+|                                                      |
++------------------------------------------------------+
+| Footer: Contact Info | Social Media Links | Feedback |
++------------------------------------------------------+
+```
+```
++----------------------------------------------------------------------+
+| Currency Exchange Navigator  [Home] [About] [Contact] [Language: EN] |
++----------------------------------------------------------------------+
+| Bank A                                                               |
+| +----------------------------------------------+                     |
+| | Bank Name | Buy Rate | Sell Rate | Type      |                     |
+| +----------------------------------------------+                     |
+| | Bank A    | 1.70     | 1.72      | Cash      |                     |
+| +----------------------------------------------+                     |
+|                                                                      |
+| +----------------------------------------------+                     |
+| | Address: 123 Main St, Baku, Azerbaijan       |                     |
+| | Phone: +994 12 3456789                       |                     |
+| | Email: info@banka.az                         |                     |
+| | Website: www.banka.az                        |                     |
+| +----------------------------------------------+                     |
+|                                                                      |
+| +----------------------------------------------+                     |
+| | Hours of operation: 9:00 AM - 5:00 PM        |                     |
+| +----------------------------------------------+                     |
+|                                                                      |
+| +----------------------------------------------+                     |
+| | Map showing nearby branches                  |                     |
+| +----------------------------------------------+                     |
+|                                                                      |
++----------------------------------------------------------------------+
+| Footer: Contact Info | Social Media Links | Feedback |
++----------------------------------------------------------------------+
+```
+
+#### 6.3.3. Iteration 3
+
+For the third iteration we focused on improving the table layout for the rates
+```
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  Currency Exchange Navigator         [Home] [About] [Contact]                                                                                  [Language: EN] |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bank Exchange Rates Table                                                                                                                                     |
+| +-----------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Bank Name             | Cash Buy Rate (AZN/USD) | Cash Sell Rate (AZN/USD) | Non-Cash Buy Rate (AZN/USD) | Non-Cash Sell Rate (AZN/USD) | Open Hours      | |
+| +-----------------------|-------------------------|--------------------------|-----------------------------|------------------------------|-----------------| |
+| |Access Bank            | 1.70                    | 1.72                     | 1.69                        | 1.71                         | [Details](#)    | |
+| |AFB Bank               | 1.68                    | 1.71                     | 1.67                        | 1.70                         | [Details](#)    | |
+| |International Bank     | 1.69                    | 1.73                     | 1.68                        | 1.72                         | [Details](#)    | |
+| |Premium Bank           | 1.67                    | 1.70                     | 1.66                        | 1.69                         | [Details](#)    | |
+| +-----------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+|                                                                                                                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Footer: Contact Info | Social Media Links | Feedback |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```
+
 
 ## 7. Questionnaire
 
