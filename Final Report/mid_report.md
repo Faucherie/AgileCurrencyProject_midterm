@@ -515,9 +515,11 @@ For the third iteration we focused on improving the table layout for the rates
 | +-----------------------------------------------------------------------------------------------------------------------------------------------------------+ |
 |                                                                                                                                                               |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Footer: Contact Info | Social Media Links | Feedback |
+| Footer: Contact Info | Social Media Links | Feedback |                                                                                                        |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ```
+
+The table now includes both cash and non-cash rates for each bank, providing users with a complete view of available options.
 
 
 ## 7. Questionnaire
