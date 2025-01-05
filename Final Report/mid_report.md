@@ -2,6 +2,10 @@
 
 **A Currency Convertion Visualization Tool for Baku, Azerbaijan**
 
+By Team 35 Tutor Group 8 CM2020
+
+Dmytro Bogdan, Elshad Guliyev, and Scott Swanson
+
 ## 1. Table of Contents
 <!-- TOC tocDepth:2..3 chapterDepth:2..5 -->
 
@@ -21,8 +25,14 @@
     - [6.2. Technical Prototype](#62-technical-prototype)
     - [6.3. Wire Frames](#63-wire-frames)
 - [7. Questionnaire](#7-questionnaire)
-- [8. Planning](#8-planning)
-- [9. References](#9-references)
+    - [7.1. Visualized Results From Questionnaire](#71-visualized-results-from-questionnaire)
+    - [7.2. Insights From Questionnaire](#72-insights-from-questionnaire)
+- [8. Technical and functional specification](#8-technical-and-functional-specification)
+    - [8.1. Technical Stack](#81-technical-stack)
+    - [8.2. Functional Specification](#82-functional-specification)
+    - [8.3. Database Design](#83-database-design)
+- [9. Planning](#9-planning)
+- [10. References](#10-references)
 
 <!-- /TOC -->
 
@@ -214,6 +224,8 @@ Prioritize user consent and data protection measures to comply with personal dat
 
 ### 5.4. Market Research
 
+
+
 Developing the Baku Currency Exchange Rate Finder app requires an understanding of the current market landscape, including available tools, their limitations, and user needs. The following analysis reviews the findings from user questionnaires, evaluates existing platforms in Baku, and compares international equivalents for additional insights.
 
 #### 5.4.1. Current Solutions in Baku
@@ -244,14 +256,31 @@ Unlike Day.az, Azn.az is azn.az lacks any translation to English. The user is le
 
 This page like Day.az lacks any location information, and only provides the exchange rates.
 
+##### 5.4.1.3. Bank-Specific Websites
 
-##### 5.4.1.3. Implications
+Most banks in Azerbaijan publish exchange rates on their official websites, such as Kapital Bank and PASHA Bank. However, these individual bank websites have significant limitations - users must visit multiple sites to compare rates between different banks, and the sites lack helpful features like geolocation capabilities, transaction limit information, or other convenience-focused functionality.
 
-Both existing websites have significant room for improvement in several key areas. Neither platform currently implements geolocation functionality to help users locate nearby exchange offices, which would be a valuable feature for both locals and tourists. Additionally, they lack detailed information about transaction limits that could help users better plan their exchanges. This is particularly problematic for tourists who may avoid credit cards due to security concerns and need to know which exchange offices are open and accessible.
+#### 5.4.2. International Products
 
-Currently, most people address these limitations through time-consuming manual research, checking multiple websites and physically visiting different exchange offices. This process is highly inefficient, especially when users arrive at offices only to find they are closed or don't offer competitive rates.
+##### 5.4.2.1. Finance.i.ua (Ukraine)
 
-These gaps in the current market present clear opportunities for improvement in our application. By aggregating comprehensive data from all banks and exchange offices, implementing geolocation features to help users find the nearest available exchange points, and including practical information such as transaction limits and safety tips, we can create a more useful tool. These enhancements would be particularly valuable for tourists navigating an unfamiliar financial landscape while providing significant benefits to local users as well.
+![Finance.i.ua](./img//finance.i.ua_1.png)
+![Finance.i.ua](./img//finance.i.ua_2.png)
+
+Finance.i.ua offers a comprehensive platform that aggregates exchange rates from various financial institutions, providing users with transparent transaction fee information alongside useful tools like calculators and historical rate tracking. However, the platform falls short in several areas - it lacks geolocation capabilities and branch navigation features that would help users physically locate exchange points. Additionally, the interface is not optimized for non-native speakers or tourists, limiting its accessibility to a broader international audience.
+
+##### 5.4.2.2. XE Currency App (Global)
+
+XE Currency App is a widely-used global currency exchange platform that provides real-time exchange rate information and online exchange services. While it excels at delivering up-to-date currency data on a global scale, its broad focus means it lacks features specifically tailored to local markets like Baku. The app does not aggregate rates from multiple providers, instead offering its own exchange services, which can introduce bias in the rates displayed. Additionally, due to its global nature, it does not include navigation features or detailed information about specific bank branches that would be valuable for users trying to find physical exchange locations in Baku.
+
+
+#### 5.4.3. Gap Analysis
+
+Analysis of current platforms reveals significant limitations in serving Baku's currency exchange market. Local platforms like azn.day.az and azn.az lack essential features that would greatly enhance user experience. Neither platform currently implements geolocation functionality to help users locate nearby exchange offices, which would be particularly valuable for both locals and tourists navigating the city. The absence of comprehensive multilingual support creates barriers for non-native speakers, while limited transparency regarding transaction limits and fees leaves users unable to properly plan their exchanges. These platforms also show no consideration for accessibility needs, such as information about step-free access or accessible parking, excluding users with mobility requirements. Additionally, they fail to provide crucial safety information for tourists about identifying trustworthy exchange offices and avoiding common scams, leaving visitors vulnerable in an unfamiliar financial landscape.
+
+International platforms, while sophisticated in their global currency tracking capabilities, fall short in addressing Baku-specific needs. Applications like XE Currency lack integration with local banking systems and fail to provide detailed information about specific exchange offices in Baku. They don't offer essential features for tourists such as safety guidelines, reliable branch ratings, or navigation assistance to physical locations. The absence of local context and practical information about operating hours, parking availability, and auxiliary services like crypto exchange makes these platforms less useful for users in Baku.
+
+Currently, users must resort to time-consuming manual research, checking multiple websites and physically visiting different exchange offices to find suitable services. This process is highly inefficient and particularly challenging for tourists who may arrive at offices only to find they are closed or don't offer competitive rates. These gaps in the current market present clear opportunities for our application to provide a more comprehensive solution that combines accurate exchange rate information with practical features like geolocation, accessibility details, safety guidance, and convenience services, creating a more valuable tool for both local users and tourists navigating Baku's currency exchange landscape.
 
 
 ## 6. Technical and Functional Requirements/Specifications
@@ -556,7 +585,9 @@ The table now includes both cash and non-cash rates for each bank, providing use
 |                                                                      |
 +----------------------------------------------------------------------+
 | Footer: Contact Info | Social Media Links | Feedback | Accessibility |
-+----------------------------------------------------------------------+
++-------------------------------------------------------------+
+
+```
 
 Using the Google Maps API to implement the map feature. This API provides tools for adding interactive markers, route planning, and real-time updates.
 
@@ -567,12 +598,147 @@ Using the Google Maps API to implement the map feature. This API provides tools 
 
 ## 7. Questionnaire
 
-![questionnaire](./img/Currency%20Exchange%20Navigator%20Stakeholder%20Questionnaire.pdf)
+![questionnaire page 1](./img/q1.png)
+![questionnaire page 2](./img/q2.png)
+![questionnaire page 3](./img/q3.png)
+![questionnaire page 4](./img/q4.png)
+![questionnaire page 5](./img/q5.png)
+
+### 7.1. Visualized Results From Questionnaire
+
+#### 7.1.1. Questionnaire Results: Primary Role
+![Questionnaire Results: Primary Role](./img/primary_role.png)
+
+#### 7.1.2. Questionnaire Results: How often do you need to exchange currency?
+![Questionnaire Results: How often do you need to exchange currency?](./img/need_exchange_currency.png)
+
+#### 7.1.3. Questionnaire Results: What is your primary mode of transportation in Baku?
+![Questionnaire Results What is your primary mode of transportation in Baku?: ](./img/mode_transportation.png)
+
+#### 7.1.4. Questionnaire Results: How do you currently find exchange rates?
+![Questionnaire Results: How do you currently find exchange rates?](./img/find_exchange.png)
+
+#### 7.1.5. Questionnaire Results: What challenges do you face in finding the best exchange rates?
+![Questionnaire Results: What challenges do you face in finding the best exchange rates?](./img/challanges.png)
+
+#### 7.1.6. Questionnaire Results: Do you rely on geolocation tools to find nearby bank branches?
+![Questionnaire Results: Do you rely on geolocation tools to find nearby bank branches?](./img/geolacation_tools.png)
+
+#### 7.1.7. Questionnaire Results: Do tourists find it difficult to locate trustworthy currency exchange offices in Baku?
+![Questionnaire Results: Do tourists find it difficult to locate trustworthy currency exchange offices in Baku?](./img/turists.png)
+
+#### 7.1.8. Questionnaire Results: Which of the following features would you find most useful in a currency exchange app?
+![Questionnaire Results: ](./img/features_useful.png)
+
+#### 7.1.9. Questionnaire Results: Would you use a feature that provides safety tips for tourists regarding currency exchange?
+![Questionnaire Results: ](./img/safety_tips.png)
+
+#### 7.1.10. Questionnaire Results: For SMEs, would Real-time exchange rate data help optimize your foreign currency transactions?
+![Questionnaire Results: ](./img/sme.png)
+
+#### 7.1.11. Questionnaire Results: What is your preferred platform for using this service?
+![Questionnaire Results: ](./img/prefered_platform.png)
+
+#### 7.1.12. Questionnaire Results: Would you prefer a lightweight tool withou the need for downloading an app?
+![Questionnaire Results: ](./img/lightweight_download.png)
+
+#### 7.1.13. Questionnaire Results: Do you have concerns about sharing your geolocation data?
+![Questionnaire Results: ](./img/prefernce_share_geoloc.png)
 
 
+### 7.2. Insights From Questionnaire
+
+The questionnaire results revealed several key challenges faced by users in the currency exchange market. A significant portion (43.8%) of respondents reported difficulties with accessing up-to-date information, while an overwhelming majority (87.5%) expressed concerns about unclear transaction limits and fees. Finding nearby branches proved to be a universal challenge for tourists, with 100% reporting this as an issue. Additionally, 87.5% of respondents indicated a need for safety tips when conducting currency exchanges. These findings highlight critical gaps in the current market offerings, particularly regarding user-friendly, real-time, and accessible solutions. The results were especially telling among tourists, who strongly emphasized their need for both safety guidance and reliable service information. These insights demonstrate a clear opportunity for our application to address these unmet needs in the currency exchange service landscape.
 
 
-## 8. Planning
+## 8. Technical and functional specification
+
+### 8.1. Technical Stack
+
+We will build our app using React for the front-end (what users see) and NestJS for the back-end (the server side). React helps us create web pages that update smoothly without refreshing. We'll use common React tools like React Router to handle page navigation and Material-UI to make the app look good. We'll also add Google Maps to show bank locations on a map.
+
+The back-end will use NestJS because it helps us write clean, organized code. We'll store our data in a PostgreSQL database, which is good for keeping track of things like bank information and user accounts. To make the app faster, we'll use Redis to temporarily store information that people look up often, like exchange rates.
+
+For getting currency exchange rates, we want to use data from infobank.az. If we can't get permission to use their data directly, we have a backup plan. We'll use Python programs to automatically collect the information from their website. This would happen regularly to keep our rates up to date.
+
+### 8.2. Functional Specification
+The main features of the app will be:
+- See current exchange rates
+- Look up bank locations on a map
+- Get directions to banks
+- Save their favorite banks
+- Write reviews about banks
+- Report wrong information
+
+The app will work in three languages - Azerbaijani, Russian, and English. Users can pick which one they want to use. They can also choose which currencies they want to track and get notifications when rates change.
+
+### 8.3. Database Design
+
+Our database schema will consist of several tables to store information about banks, exchange rates, and related data:
+
+| Banks           |
+|-----------------|
+| bank_id (PK)    |
+| name            |
+| phone           |
+| opening_hours   |
+| website         |
+| email           |
+| branch_id (FK) |
+
+| Branches        |
+|-----------------|
+| branch_id (PK)  |
+| bank_id (FK)    |
+| address         |
+| latitude        |
+| longitude       |
+| phone           |
+| opening_hours   |
+
+| Exchange_Rates    |
+|-------------------|
+| rate_id (PK)      |
+| bank_id (FK)      |
+| currency_id (FK)  |
+| buy_cash_rate     |
+| sell_cash_rate    |
+| buy_non_cash_rate |
+| sell_non_cash_rate|
+| last_updated      |
+
+| Currencies       |
+|-----------------|
+| currency_id (PK) |
+| name            |
+| symbol          |
+
+| Users           |
+|-----------------|
+| user_id (PK)    |
+| email           |
+| password        |
+| preferred_currency_id (FK) |
+| preferred_bank_id (FK) |
+| preferred_language_id (FK) |
+
+
+| Reviews         |
+|-----------------|
+| review_id (PK)  |
+| bank_id (FK)    |
+| user_id (FK)    |
+| rating          |
+| comment         |
+| created_at      |
+
+Key relationships:
+- Each bank can have multiple exchange rates (one-to-many)
+- Exchange rates reference specific currencies (many-to-one)
+- Users can leave multiple reviews for banks (many-to-many)
+
+
+## 9. Planning
 
 Effective project planning is crucial for ensuring that all team members are aligned and that the project progresses smoothly. For our project, we utilized slack for communication and GitHub for project management.
 
@@ -598,7 +764,7 @@ Our GitHub repository served as the central hub for all project-related document
 
 
 
-## 9. References
+## 10. References
 
 1. The Trade Finance Guide, U.S. Department of Commerce, www.trade.gov/sites/default/files/2022-07/Trade_Finance_Guide_2022.pdf. Accessed 5 Dec. 2024. 
 2. “Azerbaijan: Freedom on the Net 2024 Country Report.” Freedom House, freedomhouse.org/country/azerbaijan/freedom-net/2024. Accessed 23 Dec. 2024.
